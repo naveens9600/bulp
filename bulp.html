@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: darkgrey;
+        }
+        /* .b{
+            border: 3px solid black;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Bulb</h1>
+    <div class="b">
+    <button onclick="turnon()">ON</button>
+    <img id="a" src="https://i.postimg.cc/KjK1wL3c/bulb-off.png"  alt="Nothing">
+    <button onclick="turnoff()">OFF</button>
+</div>6nq8jew.png
+    <script>
+        function turnon()
+        {
+            document.getElementById('a').src='https://i.postimg.cc/6QyTynzr/bulb-on.png';
+        }
+        function turnoff()
+        {
+            document.getElementById('a').src='https://i.postimg.cc/KjK1wL3c/bulb-off.png';
+        }
+
+    </script>
+</body>
+</html>
